@@ -32,8 +32,8 @@ class ModeTile extends StatelessWidget {
       disabled: disabled,
       margin: const EdgeInsets.only(
         left: GLOBAL_EDGE_MARGIN_VALUE,
-        top: 10,
-        bottom: 10,
+        top: 15,
+        bottom: 15,
       ),
       pressed: pressed,
       child: Padding(
@@ -54,7 +54,7 @@ class ModeTile extends StatelessWidget {
               name,
               style: TextStyle(
                 fontSize: 16,
-                color: CustomColors.headerColor,
+                color: CustomColors.primaryTextColor,
                 fontWeight: FontWeight.w700,
               ),
             ),
@@ -65,7 +65,7 @@ class ModeTile extends StatelessWidget {
               '$minutes minutes',
               style: TextStyle(
                 fontSize: 13,
-                color: CustomColors.headerColor.withAlpha(120),
+                color: CustomColors.secondaryTextColor,
                 fontWeight: FontWeight.w400,
               ),
             ),
